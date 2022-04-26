@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src="video/video.mp4"></video>
+    </section>
+
+    <!-- Video info & Up next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >(개좋다TV)팽귄형님들_몸개그모음ㅋㅋㅋㅋㅋㅋㅋ
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.png" alt="" />
+            <div class="info">
+              <span class="name">펭귄</span>
+              <span class="subscribers">1M subcribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >[스파이 펭귄] 🐧위협받고 있는 새끼 황제펭귄을 구하러 온 아델리 펭귄 🐧 [스파이 펭귄 (Penguins-Spy in the Huddle)] 20200313)</span
+              >
+              <span class="name">BBC 스튜디오 코리아</span>
+              <span class="views">150K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >암컷에게 신원확인을 받기 위해 줄을 서는 수컷 황제펭귄 [남극의 귀염둥이, 황제펭귄 이야기(Snow Chick: A Penguins Tale) ]</span
+              >
+              <span class="name">BBC 스튜디오 코리아</span>
+              <span class="views">82K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >엉뚱하고 귀여워!!🐧펭귄 무리에 잠입한 스파이 로봇ㅣ#스파이펭귄 1부 가족의 탄생 #BBC #KBS #동물의왕국 #full</span
+              >
+              <span class="name">KBS 동물의왕국</span>
+              <span class="views">90K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
